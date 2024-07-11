@@ -70,7 +70,7 @@ const Courses = () => {
       <div className="flex flex-wrap justify-start py-12">
         {courses.map((course, index) => (
           <div key={index} className="w-full md:w-1/2 lg:w-1/3 px-3 mb-6">
-            <a href="#" className="block p-6 bg-gray-900 rounded-2xl relative overflow-hidden group">
+            <div className="block p-6 bg-gray-900 rounded-2xl relative overflow-hidden group">
               <div className={`h-32 w-32 ${course.bgColor} rounded-full absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2 transition-transform duration-500 ease-in-out group-hover:scale-[10]`}></div>
               <div className="relative z-10">
                 <div className="min-h-24 mb-6 font-bold text-2xl md:text-3xl text-white">{course.title}</div>
@@ -80,7 +80,7 @@ const Courses = () => {
                   </div>
                 )}
               </div>
-            </a>
+            </div>
           </div>
         ))}
       </div>
