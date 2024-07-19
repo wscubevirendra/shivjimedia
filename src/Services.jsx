@@ -31,7 +31,7 @@ const CardSlider = () => {
   ];
 
   return (
-    <div className="w-full h-screen flex items-center justify-center bg-gray-100 px-4 sm:px-6 md:px-8 lg:px-12">
+    <div className="w-full bg-[#0F0520] h-screen flex items-center justify-center  px-4 sm:px-6 md:px-8 lg:px-12">
       <div className="flex h-80 sm:h-96 md:h-[400px] lg:h-[500px] space-x-4 overflow-x-auto scrollbar-hide">
         {cards.map((card) => (
           <div

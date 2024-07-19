@@ -5,16 +5,19 @@ import Offerings from '../Offerings'
 import ServiceCard from '../ServiceCard'
 import Services from '../Services'
 import { EmblaCarousel } from '../EmblaCarousel'
+import Intro from './Intro'
+import Number from '../Number'
 
 
 export default function Home() {
     return (
         <>
-            <EmblaCarousel />
+            <Intro />
+            <Number/>
             <Courses />
             <Projects />
-            <Offerings />
-            <ServiceCard />
+            
+            
             <Services />
         </>
     )

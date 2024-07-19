@@ -32,36 +32,8 @@ const Courses = () => {
       startDate: '74% Off',
       bgColor: 'bg-blue-500',
     },
-    {
-      title: 'Videography And Photography Services',
-      startDate: '66% Off',
-      bgColor: 'bg-red-500',
-    },
-    {
-      title: 'Advertising And Marketing Services',
-      startDate: '80% Off',
-      bgColor: 'bg-yellow-600',
-    }, {
-      title: 'Social Media Management Services',
-      startDate: '80% Off',
-      bgColor: 'bg-yellow-600',
-    }, {
-      title: 'Affiliate And Influence Marketing Services',
-      startDate: '80% Off',
-      bgColor: 'bg-yellow-600',
-    }, {
-      title: 'ROC And Legal Services',
-      startDate: '80% Off',
-      bgColor: 'bg-yellow-600',
-    }, {
-      title: 'Skill Based Education  Services',
-      startDate: '80% Off',
-      bgColor: 'bg-yellow-600',
-    }, {
-      title: 'Start-up And MSME Related Services',
-      startDate: '80% Off',
-      bgColor: 'bg-yellow-600',
-    },
+  
+  
   ];
 
   return (

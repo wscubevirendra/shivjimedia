@@ -49,8 +49,8 @@ export default function Footer() {
 
 
     return (
-        <div className='w-full mt-4 bg-[#205072]'>
-            <div className='max-w-[1200px] py-4  mt-8 m-auto grid md:grid-cols-4 grid-cols-1 bg-[#205072]'>
+        <div style={{borderTop:'1px solid white'}} className='w-full bg-[#0F0520]'>
+            <div className='max-w-[1200px] m-auto grid md:grid-cols-4 grid-cols-1 bg-[#0F0520]'>
                 <div className='w-full flex justify-center flex-col items-center'>
                     <img src="images/logo.jpg" className='md:w-[80%] w-[50%]  py-4 ' alt="" />
                     <p className='text-white text-center'>© 2023 Copyright, shivjimedia</p>
