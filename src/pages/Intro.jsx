@@ -11,7 +11,7 @@ export default function Intro() {
     }, []);
 
     return (
-        <div className='mt-[200px] mx-auto gap-20 max-w-[1200px] px-10 grid md:grid-cols-2 grid-cols-1 text-white'>
+        <div className='mt-[50px] mx-auto gap-20 max-w-[1200px] px-10 grid md:grid-cols-2 grid-cols-1 text-white'>
             <div className='border border-white p-4' data-aos="fade-up">
                 <img src="img/g1.jpg" alt="Description" />
             </div>

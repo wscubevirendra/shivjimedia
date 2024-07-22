@@ -106,7 +106,7 @@ const Projects = () => {
           {projects.map((project, index) => (
             <article data-aos="flip-left" data-aos-offset="300" key={index} className="bg-[#0F0520] p-4 rounded-lg shadow-lg transition-colors border border-white duration-300 ">
               <div className="relative mb-4">
-                <img src={project.image} alt={project.title} className="w-full h-40 object-cover rounded-md" />
+                <img src={project.image} alt={project.title} className="w-full h-44 object-cover rounded-md" />
                 <a href={project.dribbble} className="absolute bottom-2 right-2 p-2 bg-black text-white rounded-full hover:bg-[red]" target="_blank" rel="noopener noreferrer">
                   <i className="ri-arrow-right-up-line text-2xl"></i>
                 </a>

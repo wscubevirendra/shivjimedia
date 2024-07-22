@@ -7,17 +7,17 @@ import Services from '../Services'
 import { EmblaCarousel } from '../EmblaCarousel'
 import Intro from './Intro'
 import Number from '../Number'
+import TypeAnim from '../TypeAnim'
 
 
 export default function Home() {
     return (
         <>
+            <TypeAnim />
             <Intro />
-            <Number/>
+            <Number />
             <Courses />
             <Projects />
-            
-            
             <Services />
         </>
     )
