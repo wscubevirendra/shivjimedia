@@ -20,9 +20,9 @@ const Nav = () => {
       text-gray-800'>
 
           <img src="images/logo.jpg" alt="logo" width={'60px'} />
-        </div>
+        </div>  
 
-        <div onClick={() => setOpen(!open)} className='text-3xl text-white absolute right-8 top-6 cursor-pointer md:hidden'>
+        <div onClick={() => setOpen(!open)} className='text-3xl w-[44px] text-center bg-[purple] text-white absolute right-8 top-6 cursor-pointer md:hidden'>
           <ion-icon name={open ? 'close' : 'menu'}></ion-icon>
         </div>
 
@@ -34,7 +34,7 @@ const Nav = () => {
               </li>
             ))
           }
-          <div className='text-white  bg-blue-700 flex-table hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 md:ms-10 me-20 py-2.5 md:me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800'>
+          <div className='text-[white] hover:text-[white] bg-[purple]  cursor-pointer flex-table hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 md:ms-10 me-20 py-2.5 md:me-2 mb-2 '>
             Chat Now
           </div>
         </ul>

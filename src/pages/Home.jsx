@@ -4,10 +4,11 @@ import Projects from '../Project'
 import Offerings from '../Offerings'
 import ServiceCard from '../ServiceCard'
 import Services from '../Services'
-import { EmblaCarousel } from '../EmblaCarousel'
 import Intro from './Intro'
 import Number from '../Number'
 import TypeAnim from '../TypeAnim'
+import Morquu from './Morquu'
+
 
 
 export default function Home() {
@@ -15,10 +16,11 @@ export default function Home() {
         <>
             <TypeAnim />
             <Intro />
-            <Number />
             <Courses />
+            <Number />
             <Projects />
-            <Services />
+            <Morquu />
+
         </>
     )
 }

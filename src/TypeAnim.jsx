@@ -11,7 +11,7 @@ export default function TypeAnim() {
 
   return (
     <div className='w-full mt-20'>
-         <div className=' w-full px-4 md:max-w-[1200px] flex text-wrap  justify-center flex-col items-center mx-auto py-6 text-white '>
+         <div className=' container px-4  flex text-wrap  justify-center flex-col items-center mx-auto py-6 text-white '>
             <div className='flex flex-col pt-8 mb-2 items-center gap-10'>
             <h1 className='md:text-4xl text-xl font-extrabold'>Publish your Bussines, your way</h1>
              <p className='md:text-lg text-sm'>Business Promotion And Marketing.</p>

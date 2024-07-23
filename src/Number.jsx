@@ -5,7 +5,7 @@ import CountUp from 'react-countup';
 export default function Number() {
     return (
         <div className=' w-full mt-4 bg-fixed count-up-set '>
-            <div className='max-w-[1200px]  mx-auto p-5  text-white shadow-2xl'>
+            <div className='container mx-auto p-5  text-white shadow-2xl'>
 
 
                 <div className='flex md:justify-evenly items-center gap-4 mt-5 md:flex-row flex-col py-5'>

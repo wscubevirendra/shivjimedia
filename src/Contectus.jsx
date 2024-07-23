@@ -34,19 +34,19 @@ export default function Contectus() {
 
     ]
     return (
-        <div className='max-w-[1200px] mx-auto'>
+        <div className='container  mx-auto'>
 
-            <div className='grid my-4 lg:grid-cols-4 md:grid-cols-4 grid-cols-1  lg:gap-6 gap-10 px-8 py-8'>
+            <div className='grid text-[white] my-4 lg:grid-cols-4 md:grid-cols-4 grid-cols-1  lg:gap-6 gap-10 px-8 py-8'>
                 {
                     items.map(
                         (d, i) => {
                             return (
                                 <div className='w-full   border-separate p-2 '>
-                                    <div className='flex items-center justify-center text-[40px] text-blue-950'>{d.icon}
+                                    <div className='flex items-center justify-center text-[40px] text-white'>{d.icon}
                                     </div>
-                                    <div className='flex items-center justify-center text-[20px] md:text-[25px] text-[#090909] font-medium pl-[15px] pt-[20px]'><h1>{d.name}</h1></div>
+                                    <div className='flex items-center justify-center text-[20px] md:text-[25px] text-[white] font-bold font-medium pl-[15px] pt-[20px]'><h1>{d.name}</h1></div>
 
-                                    <div className='flex items-center text-center justify-center text-[16px] text-[#45454c]  pl-[15px] pt-[20px]'>
+                                    <div className='flex items-center text-center justify-center text-[16px] text-[white]  pl-[15px] pt-[20px]'>
                                         <a href={d.url}>{d.a}</a>
                                     </div>
                                 </div>

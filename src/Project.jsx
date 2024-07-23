@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react';
+import React, { useEffect } from 'react';
 import Button from './Button';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
@@ -89,22 +89,25 @@ const projects = [
 const Projects = () => {
   useEffect(() => {
     AOS.init({
-        duration: 1000, // Animation duration in milliseconds
-        once: true, // Whether animation should happen only once
+      duration: 1000, // Animation duration in milliseconds
+      once: true, // Whether animation should happen only once
     });
-}, []);
+  }, []);
 
 
   return (
-    <section className="bg-[#0F0520] text-white py-8" id="projects">
+    <section className="bg-[#0F0520] w-full text-white py-8" id="projects">
       <div className="container mx-auto px-4">
-        <h2 className="text-2xl font-bold mb-6 text-gray-900 relative">
-          <span>Projects.</span>
-          <div className="absolute -right-8 -top-4 w-10 h-7 bg-red-500 opacity-20"></div>
+        <h2 className="text-3xl font-bold mb-6  text-center">
+          <span className='text-[purple]'>Pro</span>
+          <span className='text-[yellow]'>je</span>
+          <span className='text-[green]'>cts</span>
+
         </h2>
-        <div  className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <hr className='mb-4' />
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project, index) => (
-            <article data-aos="flip-left" data-aos-offset="300" key={index} className="bg-[#0F0520] p-4 rounded-lg shadow-lg transition-colors border border-white duration-300 ">
+            <article style={{ boxShadow: 'rgba(0, 0, 0, 0.16) 0px 3px 6px, white 0px 3px 6px' }} data-aos="zoom-in" data-aos-offset="300" key={index} className="bg-[#0F0520] p-4 rounded-lg  transition-colors  duration-300 ">
               <div className="relative mb-4">
                 <img src={project.image} alt={project.title} className="w-full h-44 object-cover rounded-md" />
                 <a href={project.dribbble} className="absolute bottom-2 right-2 p-2 bg-black text-white rounded-full hover:bg-[red]" target="_blank" rel="noopener noreferrer">
@@ -116,7 +119,7 @@ const Projects = () => {
                 <p className="text-sm text-white">{project.description}</p>
               </div>
               <div className="flex  space-x-4">
-                
+
                 <a href={project.dribbble} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-red-500">
                   <Button>
                     Chat Now
