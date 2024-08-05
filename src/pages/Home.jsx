@@ -8,6 +8,7 @@ import Intro from './Intro'
 import Number from '../Number'
 import TypeAnim from '../TypeAnim'
 import Morquu from './Morquu'
+import Forms from '../Forms'
 
 
 
@@ -15,10 +16,10 @@ export default function Home() {
     return (
         <>
             <TypeAnim />
-            <Intro />
             <Courses />
             <Number />
-            <Projects />
+            <Services/>
+            <Forms/>
             <Morquu />
 
         </>

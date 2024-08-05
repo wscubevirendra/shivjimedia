@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import 'tailwindcss/tailwind.css';
 
 const services = [
@@ -23,6 +23,7 @@ const services = [
 ];
 
 const ServiceCard = () => {
+  
   return (
     <section className="container mx-auto py-16 min-h-screen grid place-items-center">
       <div className="flex flex-wrap gap-10 justify-center">

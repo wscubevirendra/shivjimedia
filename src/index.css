@@ -5,27 +5,29 @@
 @tailwind utilities;
 
 
-body{
+body {
   background-color: #0F0520;
 }
 
 .embla {
-    overflow: hidden;
-  }
-  .embla__container {
-    display: flex;
-  }
-  .embla__slide {
-    flex: 0 0 100%;
-    min-width: 0;
-  }
+  overflow: hidden;
+}
 
-  .count-up-set{
-    background-color: transparent;
-    background-image: linear-gradient(135deg, #b47cfd 0%, #ff7fc2 100%);
-  }
+.embla__container {
+  display: flex;
+}
 
- 
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
+.count-up-set {
+  background-color: transparent;
+  background-image: linear-gradient(135deg, #0858c7 0%, hsl(329, 95%, 23%) 100%);
+}
+
+
 
 
 :root {
@@ -43,7 +45,7 @@ body{
   position: relative;
   color: var(--glow-color);
   cursor: pointer;
-  padding: 0.20em 0.50em;
+  padding: 0.30em 0.70em;
   border: 0.15em solid var(--glow-color);
   border-radius: 0.45em;
   background: none;
@@ -135,24 +137,31 @@ body{
   0% {
     opacity: 0.1;
   }
+
   2% {
     opacity: 0.1;
   }
+
   4% {
     opacity: 0.5;
   }
+
   19% {
     opacity: 0.5;
   }
+
   21% {
     opacity: 0.1;
   }
+
   23% {
     opacity: 1;
   }
+
   80% {
     opacity: 0.5;
   }
+
   83% {
     opacity: 0.4;
   }
@@ -182,12 +191,15 @@ body{
   12% {
     opacity: 0.1;
   }
+
   20% {
     opacity: 1;
   }
+
   25% {
     opacity: 0.3;
   }
+
   30% {
     opacity: 1;
   }
@@ -195,6 +207,7 @@ body{
   70% {
     opacity: 0.7;
   }
+
   72% {
     opacity: 0.2;
   }
@@ -202,6 +215,7 @@ body{
   77% {
     opacity: 0.9;
   }
+
   100% {
     opacity: 0.9;
   }
@@ -211,9 +225,11 @@ body{
   0% {
     opacity: 0.1;
   }
+
   2% {
     opacity: 1;
   }
+
   4% {
     opacity: 0.1;
   }
@@ -221,16 +237,18 @@ body{
   8% {
     opacity: 1;
   }
+
   70% {
     opacity: 0.7;
   }
+
   100% {
     opacity: 1;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .glowing-btn{
+  .glowing-btn {
     font-size: 1em;
   }
 }
@@ -246,5 +264,3 @@ body{
   width: 100%;
   position: absolute;
 }
-
-

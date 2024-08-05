@@ -6,19 +6,19 @@ const CardSlider = () => {
   const cards = [
     {
       id: 1,
-      title: "Winter",
+      title: "Reel 1",
       description: "Winter has so much to offer - creative activities",
       image: "https://images.unsplash.com/photo-1453306458620-5bbef13a5bca?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       id: 2,
-      title: "Digital Technology",
+      title: "Reel 2",
       description: "Gets better every day - stay tuned",
       image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       id: 3,
-      title: "Globalization",
+      title: "Reel 3",
       description: "Help people all over the world",
       image: "https://plus.unsplash.com/premium_photo-1661421687248-7bb863c60723?q=80&w=2138&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },

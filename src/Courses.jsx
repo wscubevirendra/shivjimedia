@@ -12,45 +12,23 @@ const Courses = () => {
 
   const courses = [
     {
-      title: 'News & Advertising Agency',
+      title: 'Nai Professional Acemdmy',
       startDate: '30% Off',
       bgColor: 'bg-yellow-500',
     },
     {
-      title: 'Website And App Development',
+      title: 'Nai Professional salon',
       startDate: '40% Off',
       bgColor: 'bg-green-500',
-    },
-    {
-      title: 'Digital Marketing Services"',
-      startDate: '70% Off',
-      bgColor: 'bg-orange-500',
-    },
-    {
-      title: 'Fintech And Edutech Services',
-      startDate: '70% Off',
-      bgColor: 'bg-purple-500',
-    },
-    {
-      title: 'News & Advertise Content Creation',
-      startDate: '90% Off',
-      bgColor: 'bg-pink-500',
-    },
-    {
-      title: 'News Portal Management Services',
-      startDate: '74% Off',
-      bgColor: 'bg-blue-500',
-    },
-  
-  
+    }
   ];
 
   return (
-    <div className="container pl-4 mx-auto">
+    <div className="container px-20 pl-4 mx-auto">
       <h1 className=' text-center my-6 text-2xl bg-white mt-10 font-bold'>Find Our Exclusive Services</h1>
       <div  className="flex flex-wrap justify-start py-4">
         {courses.map((course, index) => (
-          <div data-aos="fade-up" data-aos-offset="300"  key={index} className="w-full md:w-1/2 lg:w-1/3 px-3 mb-6">
+          <div data-aos="fade-up" data-aos-offset="300"  key={index} className="w-full md:w-1/2  px-3 mb-6">
             <div className="block p-6 bg-gray-900 rounded-2xl relative overflow-hidden group">
               <div  className={`h-32 w-32 ${course.bgColor} rounded-full absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2 transition-transform duration-500 ease-in-out group-hover:scale-[10]`}></div>
               <div className="relative z-10">

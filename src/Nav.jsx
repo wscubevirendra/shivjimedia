@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 const Nav = () => {
   let Links = [
     { name: "HOME", link: "/" },
-    { name: "SERVICE", link: "/services" },
     { name: "ABOUT", link: "/about" },
     { name: "CONTACT", link: "/contact" },
   ];
@@ -15,12 +14,13 @@ const Nav = () => {
       zIndex: 10000,
       boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px'
     }} className=' bg-[#0F0520]  w-full  fixed top-0 left-0'>
-      <div className='md:flex bg-[#0F0520] items-center justify-between  py-4 md:px-10 px-7'>
+      <div className='md:flex container mx-auto bg-[#0F0520] items-center justify-between  py-4 md:px-10 px-7'>
+
         <div className='font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
       text-gray-800'>
 
-          <img src="images/logo.jpg" alt="logo" width={'60px'} />
-        </div>  
+          <img src="images/logo.png" alt="logo" width={'60px'} />
+        </div>
 
         <div onClick={() => setOpen(!open)} className='text-3xl w-[44px] text-center bg-[purple] text-white absolute right-8 top-6 cursor-pointer md:hidden'>
           <ion-icon name={open ? 'close' : 'menu'}></ion-icon>
@@ -34,9 +34,12 @@ const Nav = () => {
               </li>
             ))
           }
-          <div className='text-[white] hover:text-[white] bg-[purple]  cursor-pointer flex-table hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 md:ms-10 me-20 py-2.5 md:me-2 mb-2 '>
-            Chat Now
-          </div>
+          <a href="tel:+91 8440044477">
+            <div className='text-[white] hover:text-[white] bg-[purple]  cursor-pointer flex-table hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 md:ms-10 me-20 py-2.5 md:me-2 mb-2 '>
+              Call Now
+            </div>
+          </a>
+
         </ul>
       </div>
     </div>

@@ -5,7 +5,6 @@ const Button = (props) => {
     <button class='glowing-btn'><span class='glowing-txt'>C<span class='faulty-letter'>hat</span>NOW</span></button>
   )
 }
-
 export default Button
 
 
